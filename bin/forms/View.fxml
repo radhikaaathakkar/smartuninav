@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="forms.ViewController">
+    <TableView fx:id="formTable" layoutX="39.0" layoutY="160.0" prefHeight="400.0" prefWidth="722.0">
+        <columns>
+            <TableColumn fx:id="colSapId" text="SAP ID" />
+            <TableColumn fx:id="colName" text="Name" />
+            <TableColumn fx:id="colEmail" text="Email" />
+            <TableColumn fx:id="colQuery" text="Query" />
+            <TableColumn fx:id="colReply" onEditCommit="#saveReply" onEditStart="#initialize" text="Reply" />
+        </columns>
+    </TableView>
+    <Button layoutX="710.0" layoutY="747.0" onAction="#post" text="Post" AnchorPane.bottomAnchor="22.0" AnchorPane.rightAnchor="39.0" />
+   <Label layoutX="41.0" layoutY="578.0" text="Post Querry" textFill="#a82424">
+      <font>
+         <Font name="System Bold" size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="46.0" layoutY="626.0" text="SAP id">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="48.0" layoutY="661.0" text="Name">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="51.0" layoutY="696.0" text="Email">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="51.0" layoutY="735.0" text="Querry">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Label>
+   <TextArea fx:id="querry" layoutX="145.0" layoutY="735.0" prefHeight="55.0" prefWidth="533.0" promptText="Enter Querry" />
+   <TextField fx:id="email" layoutX="145.0" layoutY="698.0" prefHeight="31.0" prefWidth="533.0" promptText="Enter E-mail" />
+   <TextField fx:id="name" layoutX="145.0" layoutY="663.0" prefHeight="31.0" prefWidth="533.0" promptText="Enter Name" />
+   <TextField fx:id="sapid" layoutX="145.0" layoutY="628.0" prefHeight="31.0" prefWidth="533.0" promptText="Enter SAP id" />
+   <Separator layoutX="-1.0" layoutY="82.0" prefHeight="5.0" prefWidth="800.0" />
+   <Button layoutX="712.0" layoutY="35.0" mnemonicParsing="false" onAction="#close" text="close" />
+   <Button layoutX="24.0" layoutY="35.0" mnemonicParsing="false" onAction="#back" text="back" />
+   <Label layoutX="115.0" layoutY="24.0" prefHeight="55.0" prefWidth="568.0" text="University Forms" textFill="#b92525">
+      <font>
+         <Font name="System Bold" size="38.0" />
+      </font>
+   </Label>
+   <Label layoutX="70.0" layoutY="98.0" opacity="0.41" prefHeight="44.0" prefWidth="650.0" style="-fx-background-radius: 30; -fx-border-color: pink; -fx-border-radius: 30; -fx-background-color: skyblue;" />
+   <Label layoutX="104.0" layoutY="106.0" prefHeight="22.0" prefWidth="593.0" text="Note: We will post reply within 24 hours.">
+      <font>
+         <Font name="System Bold" size="21.0" />
+      </font>
+   </Label>
+</AnchorPane>

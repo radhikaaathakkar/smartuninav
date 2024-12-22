@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane minHeight="800.0" minWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="Contact.ViewController">
+   <children>
+      <Label layoutX="43.0" layoutY="146.0" opacity="0.78" prefHeight="133.0" prefWidth="222.0" style="-fx-background-color: skyblue; -fx-background-radius: 50;" />
+      <Label layoutX="72.0" layoutY="156.0" prefHeight="33.0" prefWidth="156.0" text="Library">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="199.0" prefHeight="21.0" prefWidth="213.0" text="Mob: + 91 8846311577" />
+      <Label layoutX="72.0" layoutY="225.0" prefHeight="21.0" prefWidth="213.0" text="E-mail:  lib@une.com" />
+      <Label layoutX="325.0" layoutY="146.0" opacity="0.78" prefHeight="133.0" prefWidth="222.0" style="-fx-background-color: skyblue; -fx-background-radius: 50;" />
+      <Label layoutX="354.0" layoutY="156.0" prefHeight="33.0" prefWidth="156.0" text="Ground ">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="354.0" layoutY="199.0" prefHeight="21.0" prefWidth="213.0" text="Mob: + 91 884665277" />
+      <Label layoutX="354.0" layoutY="225.0" prefHeight="21.0" prefWidth="213.0" text="E-mail:  ground@une.com" />
+      <Label layoutX="29.0" layoutY="316.0" opacity="0.78" prefHeight="133.0" prefWidth="222.0" style="-fx-background-color: skyblue; -fx-background-radius: 50;" />
+      <Label layoutX="58.0" layoutY="326.0" prefHeight="33.0" prefWidth="156.0" text="Computers">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="369.0" prefHeight="21.0" prefWidth="213.0" text="Mob: + 91 8846311500" />
+      <Label layoutX="58.0" layoutY="395.0" prefHeight="21.0" prefWidth="213.0" text="E-mail:  computer@une.com" />
+      <Label layoutX="311.0" layoutY="316.0" opacity="0.78" prefHeight="133.0" prefWidth="222.0" style="-fx-background-color: skyblue; -fx-background-radius: 50;" />
+      <Label layoutX="340.0" layoutY="326.0" prefHeight="33.0" prefWidth="156.0" text="IT">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="340.0" layoutY="369.0" prefHeight="21.0" prefWidth="213.0" text="Mob: + 91 884656277" />
+      <Label layoutX="340.0" layoutY="395.0" prefHeight="21.0" prefWidth="213.0" text="E-mail:  ITdep@une.com" />
+      <Label layoutX="588.0" layoutY="316.0" opacity="0.78" prefHeight="133.0" prefWidth="222.0" style="-fx-background-color: skyblue; -fx-background-radius: 50;" />
+      <Label layoutX="617.0" layoutY="326.0" prefHeight="33.0" prefWidth="156.0" text="Sports">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="617.0" layoutY="369.0" prefHeight="21.0" prefWidth="194.0" text="Mob: + 91 88542367" />
+      <Label layoutX="617.0" layoutY="395.0" prefHeight="21.0" prefWidth="194.0" text="E-mail:  sportsH@une.com" />
+      <Label layoutX="27.0" layoutY="489.0" opacity="0.78" prefHeight="133.0" prefWidth="222.0" style="-fx-background-color: skyblue; -fx-background-radius: 50;" />
+      <Label layoutX="56.0" layoutY="499.0" prefHeight="33.0" prefWidth="156.0" text="CSE OFFICE">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="542.0" prefHeight="21.0" prefWidth="213.0" text="Mob: + 91 8846311759" />
+      <Label layoutX="56.0" layoutY="568.0" prefHeight="21.0" prefWidth="213.0" text="E-mail:  CSEoffice@une.com" />
+      <Label layoutX="309.0" layoutY="489.0" opacity="0.78" prefHeight="133.0" prefWidth="222.0" style="-fx-background-color: skyblue; -fx-background-radius: 50;" />
+      <Label layoutX="338.0" layoutY="499.0" prefHeight="33.0" prefWidth="156.0" text="SRE">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="338.0" layoutY="542.0" prefHeight="21.0" prefWidth="213.0" text="Mob: + 91 884665277" />
+      <Label layoutX="338.0" layoutY="568.0" prefHeight="21.0" prefWidth="213.0" text="E-mail:  sre@une.com" />
+      <Label layoutX="586.0" layoutY="489.0" opacity="0.78" prefHeight="133.0" prefWidth="222.0" style="-fx-background-color: skyblue; -fx-background-radius: 50;" />
+      <Label layoutX="615.0" layoutY="499.0" prefHeight="33.0" prefWidth="156.0" text="Admission">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="615.0" layoutY="542.0" prefHeight="21.0" prefWidth="194.0" text="Mob: + 91 8854236955" />
+      <Label layoutX="615.0" layoutY="568.0" prefHeight="21.0" prefWidth="194.0" text="E-mail:admisssion@une.com" />
+      <Label layoutX="586.0" layoutY="146.0" opacity="0.78" prefHeight="133.0" prefWidth="222.0" style="-fx-background-color: skyblue; -fx-background-radius: 50;" />
+      <Label layoutX="615.0" layoutY="156.0" prefHeight="33.0" prefWidth="156.0" text="Tower-H">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="615.0" layoutY="199.0" prefHeight="21.0" prefWidth="194.0" text="Mob: + 91 8854236955" />
+      <Label layoutX="615.0" layoutY="225.0" prefHeight="21.0" prefWidth="194.0" text="E-mail:  woerH@une.com" />
+      <Separator layoutY="93.0" prefHeight="0.0" prefWidth="811.0" />
+      <Button layoutX="26.0" layoutY="39.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Button layoutX="734.0" layoutY="39.0" mnemonicParsing="false" onAction="#close" text="close" />
+      <Label layoutX="280.0" layoutY="20.0" prefHeight="57.0" prefWidth="428.0" text="Contacts" textFill="#b52d2d">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="762.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.ViewController">
+   <children>
+      <Label layoutX="2.0" layoutY="1.0" prefHeight="75.0" prefWidth="680.0" text="                              Admin Panel" textFill="#d02020">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <Separator layoutX="14.0" layoutY="76.0" prefHeight="0.0" prefWidth="783.0" style="-fx-background-color: black;" />
+      <Button layoutX="691.0" layoutY="30.0" mnemonicParsing="false" text="Log out" />
+      <Button layoutX="691.0" layoutY="30.0" mnemonicParsing="false" onAction="#logout" text="Log out" />
+      <Label layoutX="45.0" layoutY="101.0" prefHeight="34.0" prefWidth="250.0" text="Add teacher Schedule">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="151.0" prefHeight="62.0" prefWidth="129.0" text="Name">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="233.0" prefHeight="62.0" prefWidth="129.0" text="Block">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="279.0" prefHeight="62.0" prefWidth="129.0" text="Contact">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="324.0" prefHeight="62.0" prefWidth="129.0" text="Email">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="191.0" prefHeight="62.0" prefWidth="129.0" text="Subject">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="191.0" prefHeight="62.0" prefWidth="129.0" text="Period-1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="233.0" prefHeight="62.0" prefWidth="129.0" text="Period-2">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="271.0" prefHeight="62.0" prefWidth="129.0" text="Period-3">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="310.0" prefHeight="62.0" prefWidth="129.0" text="Period-4">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="uploadTeacherName" layoutX="137.0" layoutY="166.0" promptText="teacher name" />
+      <TextField fx:id="uploadBlock" layoutX="137.0" layoutY="249.0" promptText="block assigned" />
+      <TextField fx:id="uploadMobile" layoutX="137.0" layoutY="295.0" promptText="mobile no." />
+      <TextField fx:id="uploadEmail" layoutX="137.0" layoutY="340.0" promptText="e-mail" />
+      <TextField fx:id="uploadSubject" layoutX="137.0" layoutY="207.0" promptText="subject" />
+      <TextField fx:id="uploadPeriod1" layoutX="469.0" layoutY="207.0" promptText="period-1" />
+      <TextField fx:id="uploadPeriod2" layoutX="469.0" layoutY="249.0" promptText="period-2" />
+      <TextField fx:id="uploadPeriod3" layoutX="469.0" layoutY="295.0" promptText="period-3" />
+      <TextField fx:id="uploadPeriod4" layoutX="469.0" layoutY="333.0" promptText="period-4" />
+      <Label layoutX="37.0" layoutY="419.0" prefHeight="21.0" prefWidth="347.0" text="Reply Querry">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="459.0" prefHeight="62.0" prefWidth="129.0" text="SAP ID:">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="sapid" layoutX="149.0" layoutY="475.0" promptText="sap id of sudent " />
+      <Label layoutX="37.0" layoutY="506.0" prefHeight="62.0" prefWidth="129.0" text="Response:">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="updateResponse" layoutX="149.0" layoutY="521.0" prefHeight="125.0" prefWidth="620.0" promptText="add reply for querry" />
+      <Button layoutX="375.0" layoutY="475.0" mnemonicParsing="false" onAction="#postReply" text="Post Reply" />
+      <Button layoutX="284.0" layoutY="385.0" mnemonicParsing="false" onAction="#addSchedule" prefHeight="31.0" prefWidth="176.0" text="Add Schedule" />
+      <Label layoutX="400.0" layoutY="84.0" prefHeight="21.0" prefWidth="347.0" text="Delete teacher Schedule">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="405.0" layoutY="118.0" prefHeight="62.0" prefWidth="129.0" text="Name">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="teacherNameForDeleteALLRecord" layoutX="488.0" layoutY="135.0" promptText="teacher name to delete" />
+      <Button layoutX="695.0" layoutY="135.0" mnemonicParsing="false" onAction="#delete" text="Delete" />
+      <Label layoutX="379.0" layoutY="82.0" opacity="0.15" prefHeight="101.0" prefWidth="396.0" style="-fx-background-color: pink; -fx-background-radius: 50;" />
+      <Label layoutX="12.0" layoutY="416.0" opacity="0.04" prefHeight="287.0" prefWidth="771.0" style="-fx-background-color: yellow; -fx-background-radius: 60;" />
+   </children>
+</AnchorPane>
